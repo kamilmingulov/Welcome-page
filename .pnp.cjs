@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["babylonjs", "npm:6.7.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -38,9 +39,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["Welcome-page", "workspace:."],\
+            ["babylonjs", "npm:6.7.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["babylonjs", [\
+        ["npm:6.7.0", {\
+          "packageLocation": "./.yarn/unplugged/babylonjs-npm-6.7.0-712d2d14e6/node_modules/babylonjs/",\
+          "packageDependencies": [\
+            ["babylonjs", "npm:6.7.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["typescript", [\
